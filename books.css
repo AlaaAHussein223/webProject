@@ -1,0 +1,112 @@
+body{
+    background-image: url(images/photo_2025-11-24_05-34-52.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    
+}
+.header{
+    width: 90%;
+    height: 70px;
+    background-color: rgb(201, 177, 171);
+    border: none;
+    border-radius: 20px;
+    margin-left: 60px;
+  
+}
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin-left: 30px;
+
+
+}
+.list{
+    list-style-type: none;
+    color: rgb(62, 18, 3);
+    float: right;
+    text-align: center;
+    margin-right: 250px;
+}
+.list li{
+
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    
+}
+button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: rgb(12, 12, 12);
+    float: right;
+    margin: 10px 20px;
+    font-size: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(58, 14, 3);
+}
+a:hover{
+    text-decoration:underline;
+
+}
+button:hover{
+    border: 1px black solid;
+    background-color: rgb(58, 14, 3);
+    color: azure;
+}
+.mg2{
+    width:350px;
+    height: 600px;
+    border-radius: 20px;
+} 
+h2{
+    color: rgb(58, 14, 3);
+}
+p{
+    color:  rgb(58, 14, 3);
+}
+
+.dive{
+    width:350px;
+    height: 400px;
+    border-radius: 20px;
+    border: none;
+    background-color:   rgb(201, 177, 171);
+    float: left;
+    margin-left:100px ;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(58, 14, 3);
+    
+    
+} 
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+select{
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+select:hover{
+    border: 1px black solid;
+    background-color:  rgb(58, 14, 3);
+    color: azure;
+}
